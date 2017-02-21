@@ -24,7 +24,7 @@ Usage:
   ```
   Install-TransportAgent -Name "Email Plus Agent" -TransportAgentFactory:PlusAgent.PlusFactory -AssemblyPath:"C:\CustomAgents\PlusAgent.dll"
   Get-TransportAgent
-  Set-TransportAgent "Email Plus Agent" -Priority:7
+  Set-TransportAgent "Email Plus Agent" -Priority:1
   Enable-TransportAgent "Email Plus Agent"
   restart-service msexchangetransport
   ```
